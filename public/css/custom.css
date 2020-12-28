@@ -1,0 +1,70 @@
+.navbar-brand {
+    vertical-align: middle;
+    padding: 0 !important;
+}
+.navbar-brand img {
+    width: 200px;
+    height: auto;
+    display: block;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.logo{
+    max-width: 500px;
+}
+.mw-200{
+    max-width: 200px;
+}
+.mh-300{
+    min-height: 300px;
+}
+.license-btn{
+    display: inline-block;
+}
+
+.trello_input_box {
+    width: 300px;
+}
+
+.trello_input_box:first-child {
+    margin-right: 15px;
+}
+
+.trello_input_box:last-child {
+    margin-left: 15px;
+}
+
+input.in-valid {
+    border-color: red !important;
+}
+
+@media (max-width: 650px) {
+    .form_trello_box .row {
+        display: block !important;
+        margin: 0 !important;
+    }
+        
+    .trello_input_box:last-child {
+        margin-left: auto;
+        margin-top: 20px
+    }
+
+    .trello_input_box:first-child {
+        margin-right: auto;
+    }
+
+    .trello_input_box {
+        margin: auto;
+    }
+}
+
+.list_license_box {
+    overflow: auto;
+    margin-top: 100px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
